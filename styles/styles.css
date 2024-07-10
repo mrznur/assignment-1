@@ -41,6 +41,7 @@
     border-radius: 8px;
     padding: 20px 25px;
     opacity: 0.8;
+    cursor: pointer;
 }
 
 .background {
@@ -86,6 +87,7 @@
     text-align: center;
     padding: 25px 25px;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .web-dev-title {
@@ -158,6 +160,7 @@
     margin-top: 30px;
     padding: 15px 20px;
     opacity: 0.8;
+    cursor: pointer;
 }
 
 .insp-title {
@@ -174,7 +177,7 @@
 .insp-desc {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
@@ -199,4 +202,74 @@
     margin-right: 340px;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.head-target {
+    margin-top: 100px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.techs {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.tech-name {
+    border-radius: 5px;
+}
+
+.tech-desc {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.tech-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.html {
+    background-color: rgba(255, 76, 30, 0.05);
+    max-width: 450px;
+    gap: 20px;
+}
+
+.css {
+    background-color: rgba(0, 76, 232, 0.05);
+    max-width: 450px;
+    gap: 20px;
+}
+
+.js {
+    background-color: rgba(255, 223, 0, 0.05);
+    max-width: 400px;
+    gap: 30px;
+}
+.tech-learn{
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    text-align: left;
+    font-weight: 700;
+    text-decoration: underline;
 }
