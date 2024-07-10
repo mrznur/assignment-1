@@ -382,7 +382,7 @@ input[type="text"] {
 }
 
 
-.socials {
+.social {
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
