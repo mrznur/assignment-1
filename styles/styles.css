@@ -316,33 +316,107 @@
     margin-left: 97px;
 }
 
+.support {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.supp-desc {
+    margin-left: 500px;
+    margin-right: 500px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
 .bg-hand {
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    height: 380px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.603)), url(/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
 }
 
 .hand-bg {
-    margin-top: 200px;
-    height: 750px;
-    background-image: url(/assets/handshake.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
-.socials{
-    justify-content:space-evenly ;
+
+
+.btn-ctn {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border: 0px;
+    border-radius: 6px;
+}
+
+input[type="text"] {
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    background-color: aliceblue;
+    height: 62px;
+    width: 580px;
+    border: 0px;
+    border-radius: 8px;
+}
+
+.submit-btn {
+    font-size: 22px;
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 7px;
+    padding: 20px 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
     gap: 30px;
+    margin-right: 50px;
 
 }
 
-footer .ending{
-    padding: 150px,32px;
-    
+.ending {
+    margin-left: 60px;
+
 }
 
-.feet{
+.feet {
     background-color: #0d132103;
     display: flex;
     justify-content: space-between;
     margin: 32px 150px;
-    
+
 }
