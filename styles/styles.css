@@ -242,8 +242,8 @@
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
-    line-height: 36px;
-    letter-spacing: 0%;
+    line-height: 40px;
+    letter-spacing: 2%;
     text-align: left;
 }
 
@@ -264,7 +264,8 @@
     max-width: 400px;
     gap: 30px;
 }
-.tech-learn{
+
+.tech-learn {
     font-size: 20px;
     border: none;
     border-radius: 0px;
@@ -272,4 +273,76 @@
     text-align: left;
     font-weight: 700;
     text-decoration: underline;
+}
+
+.react-img {
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 150%;
+}
+
+.react-box {
+    margin-top: 60px;
+    box-sizing: border-box;
+    border: 2px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.react-js {
+    margin: 30px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 2%;
+    margin-left: 97px;
+}
+
+.react-desc {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 19px;
+    font-weight: 450;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-left: 97px;
+}
+
+.bg-hand {
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+}
+
+.hand-bg {
+    margin-top: 200px;
+    height: 750px;
+    background-image: url(/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.socials{
+    justify-content:space-evenly ;
+    gap: 30px;
+
+}
+
+footer .ending{
+    padding: 150px,32px;
+    
+}
+
+.feet{
+    background-color: #0d132103;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 150px;
+    
 }
