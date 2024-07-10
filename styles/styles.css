@@ -14,7 +14,6 @@
 
 .name {
     font-size: 28px;
-    font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
@@ -30,7 +29,6 @@
 }
 
 .download {
-    font-family: Azeret Mono;
     font-size: 26px;
     font-weight: 600;
     line-height: 23px;
@@ -55,7 +53,6 @@
 
 .main-intro {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 60px;
     font-weight: 800;
     line-height: 75px;
@@ -79,7 +76,6 @@
     border-radius: 8px;
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
@@ -92,7 +88,6 @@
 
 .web-dev-title {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 34px;
     font-weight: 800;
     line-height: 39px;
@@ -127,7 +122,6 @@
 
 .title {
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
     font-size: 26px;
     font-weight: 600;
     line-height: 40px;
@@ -138,7 +132,6 @@
 
 .title-desc {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 19px;
     font-weight: 500;
     line-height: 30px;
@@ -149,7 +142,6 @@
 }
 
 .learn {
-    font-family: Azeret Mono;
     font-size: 26px;
     font-weight: 600;
     line-height: 23px;
@@ -166,7 +158,6 @@
 .insp-title {
     margin-top: 250px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 34px;
     font-weight: 800;
     line-height: 37px;
@@ -176,7 +167,6 @@
 
 .insp-desc {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
@@ -207,7 +197,6 @@
 .head-target {
     margin-top: 100px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 34px;
     font-weight: 800;
     line-height: 37px;
@@ -228,7 +217,6 @@
 
 .tech-desc {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
@@ -239,7 +227,6 @@
 
 .tech-title {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
     line-height: 40px;
@@ -297,7 +284,6 @@
 .react-js {
     margin: 30px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
     line-height: 40px;
@@ -307,7 +293,6 @@
 
 .react-desc {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 19px;
     font-weight: 450;
     line-height: 26px;
@@ -318,7 +303,6 @@
 
 .support {
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 35px;
     font-weight: 700;
     line-height: 36px;
@@ -332,7 +316,6 @@
     margin-left: 500px;
     margin-right: 500px;
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
@@ -375,7 +358,6 @@
 
 input[type="text"] {
     color: rgba(13, 19, 33, 0.4);
-    font-family: Azeret Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 19px;
@@ -393,7 +375,7 @@ input[type="text"] {
     font-weight: bolder;
     border: 0px;
     border-radius: 7px;
-    padding: 20px 20px;
+    padding: 19px 20px;
     background-color: white;
     color: black;
     cursor: pointer;
