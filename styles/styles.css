@@ -9,7 +9,6 @@
 .background {
     height: 800px;
     background-image: url(/assets/Hero-bg.png);
-    margin-top: 150px;
 
 }
 
@@ -25,9 +24,23 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    margin: 50px 150px;
     align-items: center;
 
+}
+
+.download {
+    font-family: Azeret Mono;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 5%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    padding: 20px 25px;
+    opacity: 0.8;
 }
 
 .background {
@@ -35,24 +48,42 @@
 }
 
 .background img {
-    border-radius: 100%;
+    border-radius: 150%;
+    margin-bottom: 50px;
 }
 
 .main-intro {
-    font-size: 65px;
-    font-weight: 900;
-    margin-right: 0px 450px;
-    color: rgba(13, 19, 33, 1);
-
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 250px;
 }
 
 .bg-info {
     color: rgb(8, 12, 20);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 26px;
     list-style: none;
     text-align: center;
     opacity: 0.7;
-margin: 50px 350px;
+    margin: 50px 350px;
+}
+
+.contact {
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 250px;
+    padding: 20px 25px;
 }
